@@ -4,7 +4,7 @@ require('dotenv-extended').load();
 //Librerias
 var builder = require('botbuilder');
 var restify = require('restify');
-var cognitiveservices = require('botbuilder-cognitiveservices');
+//var cognitiveservices = require('botbuilder-cognitiveservices');
 
 const https = require('https');
 
@@ -26,7 +26,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function() {
 server.post('/api/messages', connector.listen());
 
 //Conexion de LUIS
-const qnarecognizer = new cognitiveservices.QnAMakerRecognizer({ knowledgeBaseId: '408b01d6-96c3-4a63-875d-19a02cf2f7c5', subscriptionKey: '48243fa8da7e44b8aeddcb4b502dc246' });
+//const qnarecognizer = new cognitiveservices.QnAMakerRecognizer({ knowledgeBaseId: '408b01d6-96c3-4a63-875d-19a02cf2f7c5', subscriptionKey: '48243fa8da7e44b8aeddcb4b502dc246' });
 const recognizer = new builder.LuisRecognizer('https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/94b2f2a5-2c10-4a7b-bac5-91b457162267?subscription-key=1b32aced334346dcb4d40613fac774fe&verbose=true&timezoneOffset=-420&q=');
 var intents = new builder.IntentDialog({ recognizers: [ recognizer] });
 
