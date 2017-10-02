@@ -1,4 +1,4 @@
-//require('dotenv-extended').load();
+require('dotenv-extended').load();
 
 
 //Librerias
