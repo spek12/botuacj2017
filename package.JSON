@@ -1,0 +1,9 @@
+{
+"dependencies":{
+   "botbuilder": "^3.8.3",
+   "restify": "^4.1.1",
+   "https": "^1.0.0" ,
+   "dotenv-extended": "^1.0.4"  
+   }
+
+}
