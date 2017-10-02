@@ -5,7 +5,7 @@ require('dotenv-extended').load();
 var builder = require('botbuilder');
 var restify = require('restify');
 const cognitiveservices = require('botbuilder-cognitiveservices');
-
+const https = require('https');
 
 //crear connector de chat, msg, skype, etc
 var connector = new builder.ChatConnector({
