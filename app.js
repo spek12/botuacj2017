@@ -4,7 +4,7 @@ require('dotenv-extended').load();
 //Librerias
 var builder = require('botbuilder');
 var restify = require('restify');
-var cognitiveservices = require('../../lib/botbuilder-cognitiveservices');
+var cognitiveservices = require('botbuilder-cognitiveservices');
 
 const https = require('https');
 
