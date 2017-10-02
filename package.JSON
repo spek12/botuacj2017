@@ -1,8 +1,8 @@
 {
 "dependencies":{
-  "botbuilder": "^3.7.0",
-    "html-entities": "^1.2.0",
-    "request": "^2.78.0",
+  "botbuilder": "^3.4.4",
+    "dotenv": "^2.0.0",
+    "request": "^2.81.0",
     "restify": "^4.3.0"
    }
 
