@@ -6,7 +6,7 @@
     "dotenv": "^2.0.0",
     "request": "^2.81.0",
     "restify": "^4.3.0",
-  "botbuilder-cognitiveservices": "^1.0.1"
+    "botbuilder-cognitiveservices": "^1.0.1"
    }
 
 }
